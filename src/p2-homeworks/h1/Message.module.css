@@ -1,3 +1,37 @@
-.message {
 
+.message {
+    position: relative;
+    min-height: 50px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px 0 0 20px;
+    padding: 20px;
+    border-radius: 25px 0 0 25px;
 }
+
+.item {
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    position: absolute;
+    align-items: center;
+    right: 10px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+
+
+

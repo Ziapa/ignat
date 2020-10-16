@@ -9,7 +9,7 @@ export type UserType = {
 }
 
 // уровень работы с глобальными данными
-function HW3() {
+export function HW3() {
     const [users, setUsers] = useState<Array<UserType>>([]); // need to fix any
 
     const addUserCallback = (name: string) => { // need to fix any
@@ -18,9 +18,10 @@ function HW3() {
             _id: v1()
         }
         setUsers([...users, newUser]); // need to fix}
-
+    }
         return (
             <div>
+
                 <hr/>
                 homeworks 3
 
@@ -34,5 +35,5 @@ function HW3() {
             </div>
         );
     }
-}
+
     export default HW3;

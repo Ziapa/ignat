@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./App.module.css";
-import HW1 from "../../../p2-homeworks/h1/HW1";
+import {HW3} from "../../../p2-homeworks/h3/HW3";
+
 
 function App() {
     return (
