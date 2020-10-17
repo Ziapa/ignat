@@ -13,7 +13,11 @@ export const PATH = {
     // add paths
 }
 
+
+
 function Routes() {
+
+
     return (
         <div>
             {/*Switch выбирает первый подходящий роут*/}

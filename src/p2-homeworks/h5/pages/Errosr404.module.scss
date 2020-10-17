@@ -1,0 +1,23 @@
+.error404 {
+
+  margin: 150px auto;
+  width: 350px;
+  text-align: center;
+
+  .error404_item {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  a {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: darkred;
+  }
+}
