@@ -1,0 +1,48 @@
+.header {
+  .burgerMenu {
+    border: 3px black solid;
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 50px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+
+    .burgerMenu_item {
+      margin: 2px auto;
+      content: "";
+      height: 5px;
+      width: 50px;
+      background-color: darkred;
+    }
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border: 3px black solid;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+
+    a {
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      border: 1px solid black;
+      text-align: center;
+      background-color: darkred;
+    }
+  }
+}
