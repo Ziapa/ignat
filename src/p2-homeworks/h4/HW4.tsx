@@ -9,14 +9,18 @@ function HW4() {
     const error = text ? "" : "error";
     const showAlert = () => {
         if (error) {
-            alert("введите текст...");
+            alert("введите текст...")
+
         } else {
-            alert(text); // если нет ошибки показать текст
+            alert(text);
+            setText(""); // если нет ошибки показать текст
         }
     }
 
     const [checked, setChecked] = useState<boolean>(false);
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked);
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setChecked(e.currentTarget.checked);
+    }
 
     return (
         <div>
@@ -37,6 +41,7 @@ function HW4() {
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
+
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
@@ -45,8 +50,9 @@ function HW4() {
                 <SuperCheckbox
                     checked={checked}
                     onChangeChecked={setChecked}
+
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    some text {text/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
