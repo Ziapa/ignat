@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ignat/static/css/main.b93f5740.chunk.css",
-    "main.js": "/ignat/static/js/main.4455a71d.chunk.js",
-    "main.js.map": "/ignat/static/js/main.4455a71d.chunk.js.map",
+    "main.js": "/ignat/static/js/main.9d5d735d.chunk.js",
+    "main.js.map": "/ignat/static/js/main.9d5d735d.chunk.js.map",
     "runtime-main.js": "/ignat/static/js/runtime-main.cfbfd05b.js",
     "runtime-main.js.map": "/ignat/static/js/runtime-main.cfbfd05b.js.map",
     "static/js/2.960a8f63.chunk.js": "/ignat/static/js/2.960a8f63.chunk.js",
     "static/js/2.960a8f63.chunk.js.map": "/ignat/static/js/2.960a8f63.chunk.js.map",
     "index.html": "/ignat/index.html",
-    "precache-manifest.66cfd2e3409c27cb56636ddf0f27b700.js": "/ignat/precache-manifest.66cfd2e3409c27cb56636ddf0f27b700.js",
+    "precache-manifest.8ab81eb7cec6c8804e58f1870337c34f.js": "/ignat/precache-manifest.8ab81eb7cec6c8804e58f1870337c34f.js",
     "service-worker.js": "/ignat/service-worker.js",
     "static/css/main.b93f5740.chunk.css.map": "/ignat/static/css/main.b93f5740.chunk.css.map",
     "static/js/2.960a8f63.chunk.js.LICENSE.txt": "/ignat/static/js/2.960a8f63.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cfbfd05b.js",
     "static/js/2.960a8f63.chunk.js",
     "static/css/main.b93f5740.chunk.css",
-    "static/js/main.4455a71d.chunk.js"
+    "static/js/main.9d5d735d.chunk.js"
   ]
 }
